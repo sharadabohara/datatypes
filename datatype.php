@@ -26,7 +26,7 @@ var_dump($new);
 echo "<hr />";
 
 $x=3567;
-$y=236556;
+$y=236556; //null vayo vane $x in null hunxa
 $x=&$y;
 var_dump($x);
 ?>
