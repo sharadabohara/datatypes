@@ -1,5 +1,5 @@
 <?php
-$fruit = 'avacado';
+$fruit = 'apple';
 switch($fruit){
     case "apple":
         echo 'The price of'.' '.$fruit.' '.'is Rs. 230/Kg.';
@@ -7,6 +7,7 @@ switch($fruit){
     case "banana":
         echo 'The price of'.' '.$fruit.' '.'is Rs. 100/dozen.';
         break;
+        // die();
 
     case "orange":
         echo 'The price of'.' '.$fruit.' '.'is Rs. 120/Kg.';
@@ -15,8 +16,8 @@ switch($fruit){
         echo 'The price of'.' '.$fruit.' '.' is Rs. 500/Kg.';
         break;
     case "mango":
-    echo 'The price of'.' '.$fruit.' '.'is Rs. 200/Kg.';
-    break;
+        echo 'The price of'.' '.$fruit.' '.'is Rs. 200/Kg.';
+        break;
     default:
     echo 'Sorry!! Not in stock.';
 }
