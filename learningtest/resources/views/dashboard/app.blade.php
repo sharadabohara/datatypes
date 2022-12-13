@@ -6,10 +6,15 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    <div>
-        @include('layout.header')
-    </div>
-  </h1>
+  <h1 class="text-3xl font-bold underline"></h1>
+        <header>
+            @include('../components/header')
+
+        </header>
+
+  <main>
+    @yield('content')
+  </main>
+  @include('../components/footer')
 </body>
 </html>

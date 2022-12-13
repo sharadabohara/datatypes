@@ -15,7 +15,14 @@ use App\Models\User;
 */
 
 Route::get('/', function () {
-    return view('dashboard.app',[
+    return view('layout.index',[
         'user'=>User::first()
     ]);
+});
+Route::get('/about',function(){
+    return view('layout.about');
+});
+
+Route::get('/contact',function(){
+return view('layout.contact');
 });

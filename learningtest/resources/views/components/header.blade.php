@@ -6,7 +6,6 @@
           Welcome Back, {{$user->name}} !
          
         </h1>
-        <h4> {{ $user->email }}</h4>
 
         <p class="mt-1.5 text-sm text-gray-500">
           Let's write a new blog post! 🎉
