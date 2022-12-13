@@ -4,7 +4,9 @@
       <div class="text-center sm:text-left">
         <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">
           Welcome Back, {{$user->name}} !
+         
         </h1>
+        <h4> {{ $user->email }}</h4>
 
         <p class="mt-1.5 text-sm text-gray-500">
           Let's write a new blog post! 🎉
